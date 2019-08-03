@@ -1,0 +1,22 @@
+{
+  "name": "skyfinder",
+  "version": "1.0.0",
+  "description": "Plataforma de geolocalización",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chemah/skyfinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chemah/skyfinder/issues"
+  },
+  "homepage": "https://github.com/Chemah/skyfinder#readme",
+  "dependencies": {
+    "gps-tracking": "^1.1.1"
+  }
+}
