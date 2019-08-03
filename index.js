@@ -2,12 +2,6 @@ const gps = require("gps-tracking")
 const http = require('http')
 let port = process.env.PORT
 
-http.createServer(function(request, response) {  
-     response.writeHeader(200, {"Content-Type": "text/html"});  
-     response.write('Puerto' + port)  
-     response.end();  
- }).listen(port)
-
 console.log("Escuchando por el puerto: " + port)
 
 if (port == null || port == "") {
