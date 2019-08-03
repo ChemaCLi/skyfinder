@@ -1,8 +1,15 @@
 const gps = require("gps-tracking")
+let port = process.env.PORT
+
+console.log("Escuchando por el puerto: " + port)
+
+if (port == null || port == "") {
+  port = 8000
+}
 
 var options = {
      'debug'                 : true,
-     'port'                  : 8080,
+     'port'                  : port,
      'device_adapter'        : "TK103"
  }
   
